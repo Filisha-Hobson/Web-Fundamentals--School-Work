@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    width: 1000px;
+    height: 80px;
+    background-color: silver;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-btn {
+    width: 80px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+
+.nav-bar h1{
+    font-size: xx-large;
+}
+
+input {
+    width: 500px;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    height: 800px;
+    column-gap: 75px;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.ninja-box {
+    display: flex;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    column-gap: 40px;
+}
+
+h2, p.noun {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    padding: 5px 25px;
+    background-color: #ffc107;
+    color: black;
+    box-shadow: 5px 5px black;
+
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.col-2 p {
+    font-size: x-large;
+}
+.col-2 span.you {
+    font-weight: bold;
+}
+
+.definition-box {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.add-def-btn {
+    background-color: #28a745;
+    color: black;
+    /* width: 180px;
+    height: 40px; */
+    padding: 5px 25px;
+    box-shadow: 5px 5px black;
+
+}
+
+
+span.language {
+    color:#007bff;
+    text-decoration: underline;
+}
+
+span.ninjutsu {
+    color: #007bff;
+    text-decoration: underline;
+}

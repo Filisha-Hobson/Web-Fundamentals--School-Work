@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 1000px;
+    border: 2px solid #999;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    /* overflow: hidden; */
+}
+
+.user-header {
+    background-color:#007bff ;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%; 
+    background-color: white;
+    border: 2px solid #999;
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.picture {
+    border-radius: 35%;
+    width: 75px;
+    height: 75px;
+
+}
+.icon-m {
+    width: 10px;
+    justify-content: space-between;
+}
+
+.setting-gear {
+    width: 15px;
+}
+
+.user-body {
+    padding: 20px;
+}
+

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.some-user-box {
+    flex-direction: column;
+    display: flex;
+    border: 2px solid grey;
+    padding: 20px;
+}
+
+.first-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.user {
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    height: 800px;
+    column-gap: 75px;
+}
+
+.btn {
+    padding: 5px 25px;
+    background-color: #ffc107;
+    color: black;
+    box-shadow: 5px 5px black;
+}
+
+p.user, .btn, p#word {
+    display: inline-block;
+    justify-content: space-around;
+
+}

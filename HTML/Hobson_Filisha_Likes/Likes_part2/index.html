@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part Two</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <h2>Your Feed</h2>
+        <main>
+            <div class="col-1">
+                <div class="user-box">
+                    <img src="user-circle.png" alt="">
+                    <a href="#">Add an Avatar
+                    </a>
+                    <h1>James Doe</h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="some-user-box">
+                    <div class="first-box">
+                        <p class="user">Neil M</p>
+                        <span id="first">9 like(s)</span>
+                        <button class="btn" onclick="IncreaseLikeNum(0)">Like</button>
+                    </div>
+                    <div class="second-box">
+                        <p class="phrase">I just set up this new discord bot, let me <br>
+                            know what you all think.</p> <a href="#">link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="some-user-box">
+                    <div class="first-box">
+                        <p class="user">Nichole K</p>
+                        <span id="second">12 like(s)</span>
+                        <button class="btn" onclick="IncreaseLikeNum(1)">Like</button>
+                    </div>
+                    <div class="second-box">
+                        <p class="phrase">Just finished my <a href="#">next comic,</a> check it out.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="some-user-box">
+                    <div class="first-box">
+                        <p class="user">Jim R</p>
+                        <span id="third">9 like(s)</span>
+                        <button class="btn" onclick="IncreaseLikeNum(2)">Like</button>
+                    </div>
+                    <div class="second-box">
+                        <p class="phrase">I can't stop listening to the <a href="#">new album</a>. <br>
+                        Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
